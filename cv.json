@@ -2,7 +2,7 @@
     "basics": {
       "name": "Juan Federico Santos Di Leo",
       "label": "Full Stack Developer con más de 3 años de experiencia",
-      "image": "/me.webp",
+      "image": "/fotocv.webp",
       "email": "juanfedileo@gmail.com",
       "phone": "+549 2236151736",
       "url": "https://midu.dev",
@@ -29,33 +29,23 @@
     },
     "work": [
       {
-        "name": "midudev",
-        "position": "Divulgador sobre Programación Web",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2021-01-01",
-        "endDate": null,
-        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+        "name": "IPH",
+        "position": "Java Developer",
+        "url": "https://www.iph.digital/index.html",
+        "startDate": "2022-03-01",
+        "endDate": "2024-05-01",
+        "summary": "Desarrollé diferentes funcionalidades dedicadas al backend con Spring y tambien desarollé diferentes stored procedures en base de datos. Comencé en marzo del 2022 y terminé en mayo del 2024.",
         "highlights": [
           "Started the company"
         ]
       },
       {
-        "name": "Adevinta",
-        "position": "Lead Frontend Architect",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2016-06-01",
-        "endDate": "2022-09-01",
-        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-        "highlights": [
-          "Started the company"
-        ]
-      },
-      {
-        "name": "Hubii",
-        "position": "Senior FrontEnd Developer",
-        "startDate": "2011-03-01",
-        "endDate": "2016-05-01",
-        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+        "name": "Papierttei",
+        "position": "Python Developer",
+        "url": "https://sitio.papierttei.com/",
+        "startDate": "2021-03-01",
+        "endDate": "2022-03-01",
+        "summary": "Desarrollé un catalogo web con Django. Comencé en marzo del 2021 y terminé en marzo del 2022.",
         "highlights": [
           "Started the company"
         ]
@@ -73,12 +63,12 @@
       ]
     }],
     "education": [{
-      "institution": "Universitad Nacional de Mar del plata",
+      "institution": "Universidad Nacional de Mar del plata",
       "url": "https://www.uoc.edu/portal/es/index.html",
       "area": "Ingeniero en Informatica",
       "studyType": "Universitario",
       "startDate": "2014-01-03",
-      "endDate": "2009-01-01",
+      "endDate":null,
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -104,6 +94,41 @@
       "summary": "Description…"
     }],
     "skills": [
+      {
+        "name": "Java",
+        "level": "Avanzado",
+        "keywords": [
+            "Desarrollo Web", "Backend", "SSR"
+        ]
+      },
+      {
+        "name": "Python",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "SSR"
+        ]
+      },
+      {
+        "name": "Spring",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "SSR"
+        ]
+      },
+      {
+        "name": "Django",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "SSR"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
       {
         "name": "HTML",
         "level": "Master",
@@ -133,24 +158,10 @@
         ]
       },
       {
-        "name": "TypeScript",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
-      },
-      {
         "name": "Node",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "MySQL",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
         ]
       },
       {
@@ -165,13 +176,6 @@
         "level": "Avanzado",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
         ]
       },
       {

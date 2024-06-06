@@ -5,7 +5,15 @@ const { city, region } = location;
 import WorldMap from "@/icons/WorldMap.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
+import GitHub from "@/icons/GitHub.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
 import Section from "../Section.astro";
+import type { SocialIcon } from "@/types";
+
+const SOCIAL_ICONS: SocialIcon = {
+  GitHub,
+  LinkedIn,
+};
 ---
 
 <Section>
@@ -42,8 +50,27 @@ import Section from "../Section.astro";
             </a>
           )
         }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network];
+
+            return (
+              <a
+                href={url}
+                title={`Visitar el perfil de ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon />
+              </a>
+            );
+          })
+        }
       </footer>
     </div>
+    <figure>
+      <img src={image} alt={name} />
+    </figure>
   </div>
 </Section>
 
